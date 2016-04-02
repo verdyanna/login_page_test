@@ -4,12 +4,7 @@ from fixture.application import Application
 from model.contact_constructer import Contact_fill
 
 
-@pytest.fixture
-def app(request):
-    fixture = Application()
-    request.addfinalizer(fixture.destroy)
-    return fixture
-    
+
 def test_contact(app):
 
     app.session.login(username="admin", password="secret")
