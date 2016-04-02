@@ -1,11 +1,13 @@
 class Contact_fill:
 
-    def __init__(self, firstname, lastname, address, home_phome, mobile_phone, work_phone, fax, email_na):
+    def __init__(self, firstname=None, middlename=None, lastname=None, address=None, home=None, mobile=None, work=None, fax=None, email=None):
+
         self.firstname = firstname
+        self.middlename = middlename
         self.lastname = lastname
         self.address = address
-        self.home_phome = home_phome
-        self.mobile_phone = mobile_phone
-        self.work_phone = work_phone
+        self.home = home
+        self.mobile = mobile
+        self.work = work
         self.fax = fax
-        self.email_na = email_na
+        self.email = email
