@@ -18,3 +18,10 @@ class Application:
 
     def destroy(self):
         self.wd.quit()
+
+    def is_valid(self): #если что-то свалилось, значит эта текстура непригодна
+        try:
+            self.wd.current_url #проверить на какой мы странице
+            return True
+        except:
+            return False
