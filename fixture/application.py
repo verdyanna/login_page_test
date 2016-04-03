@@ -7,7 +7,6 @@ class Application:
 
     def __init__(self):
         self.wd = WebDriver()
-        self.wd.implicitly_wait(60)
         self.session = SessionHelper(self)
         self.group_helper = GroupHelper(self)
         self.contact_helper = ContactHelper(self)
@@ -19,9 +18,9 @@ class Application:
     def destroy(self):
         self.wd.quit()
 
-    def is_valid(self): #если что-то свалилось, значит эта текстура непригодна
+    def is_valid(self):
         try:
-            self.wd.current_url #проверить на какой мы странице
+            self.wd.current_url
             return True
         except:
             return False
