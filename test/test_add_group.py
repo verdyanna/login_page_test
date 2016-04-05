@@ -27,7 +27,6 @@ def test_assert_list_group(app):
     new_groups = app.group_helper.get_group_list()
     assert len(old_groups)+1 == len(new_groups)
     old_groups.append(groupp)
-
     assert sorted (old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
 
 def test_create_empty_group_assert(app):
@@ -38,5 +37,14 @@ def test_create_empty_group_assert(app):
     assert len(old_groups)+1 == len(new_groups)
     old_groups.append(groupp)
     assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
+
+def test_xesh_list_group(app):
+    old_groups = app.group_helper.get_group_list()
+    groupp = Group(name="frtyh", header="dwetreg", footer="wrehgrthb")
+    app.group_helper.fill_group_form(groupp)
+    assert len(old_groups)+1 == app.group_helper.count()
+    new_groups = app.group_helper.get_group_list()
+    old_groups.append(groupp)
+    assert sorted (old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
 
 
