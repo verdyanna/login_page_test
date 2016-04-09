@@ -4,12 +4,12 @@ import pytest
 from data.add_group import constant as testdata
 
 def test_add_group_gen(app, json_groups):
-    group = json_groups
+    grouup = json_groups
     old_groups = app.group_helper.get_group_list()
-    app.group_helper.fill_group_form(group)
+    app.group_helper.fill_group_form(grouup)
     assert len(old_groups) + 1 == app.group_helper.count()
     new_groups = app.group_helper.get_group_list()
-    old_groups.append(group)
+    old_groups.append(grouup)
     assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
 
 
