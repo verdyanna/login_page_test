@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7da3ebec-0257-4f2a-93f8-6b2ff61dbd53" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/login_page_test.iml" afterPath="$PROJECT_DIR$/.idea/login_page_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="7da3ebec-0257-4f2a-93f8-6b2ff61dbd53" name="Default" comment="7_3 генератор json работает">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/contact_constructer.py" afterPath="$PROJECT_DIR$/model/contact_constructer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_add_group.py" afterPath="$PROJECT_DIR$/test/test_add_group.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_contact.py" afterPath="$PROJECT_DIR$/test/test_contact.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_delete_group.py" afterPath="$PROJECT_DIR$/test/test_delete_group.py" />
     </list>
     <ignored path="login_page_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -932,7 +926,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460197001831</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="7_3 генератор json работает">
+      <created>1461488686426</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1461488686426</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -980,7 +981,7 @@
     <frame x="117" y="0" width="1234" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22660099" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2364532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
