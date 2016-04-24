@@ -8,7 +8,6 @@ class Contact_fill:
         self.firstname = firstname
         self.lastname = lastname
         self.home = home
-
         self.work = work
         self.mobile = mobile
         self.phone2 = phone2
